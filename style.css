@@ -258,10 +258,7 @@ body {
   width: 20vw;
   background-color: #000;
 }
-.playermiddle {
-  width: 40vw;
-  background-color: #000;
-}
+
 .playerlast {
   width: 20vw;
   background-color: #000;
@@ -272,7 +269,10 @@ body {
   margin-inline: 12px;
   opacity: 0.7;
 }
+
 .playermiddle {
+  width: 40vw;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -290,7 +290,7 @@ body {
 }
 .timeline {
   margin: 0 10px;
-  width: 40vw;
+  width: 35vw;
 }
 .playertimeline {
   display: flex;
@@ -353,8 +353,8 @@ body {
 }
 .m {
   color: white;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.25em;
   opacity: 0.7;
 }
 .n {
